@@ -3,11 +3,10 @@
 st1=input("enter the first string : ")
 st2=input("enter the second string : ")
 
+st=st1
 
-a=st1[0]
-b=st2[0]
+st3=st1.replace(st1[0:2],st2[0:2])
+st4=st2.replace(st2[0:2],st[0:2])
 
-
-print(st1)
-print(a)
-print(b)
+print(st3)
+print(st4)
